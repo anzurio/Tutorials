@@ -1,7 +1,7 @@
-﻿
+﻿using Inverter;
 using DataStoreDriver;
 
-namespace Inverter
+namespace CustomerOneDriver
 {
     public class CustomerOneDriver : IDriver
     {

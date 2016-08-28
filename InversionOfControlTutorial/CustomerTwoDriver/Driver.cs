@@ -1,12 +1,12 @@
-﻿using System;
+﻿using Inverter;
 using ControladorDeDatos;
 
-namespace Inverter
+namespace CustomerTwoDriver
 {
-    public class CustomerTwoDriver : IDriver
+    public class Driver : IDriver
     {
         Conexion _connection;
-        public CustomerTwoDriver(string connectionString)
+        public Driver(string connectionString)
         {
             string[] values = connectionString.Split(':');
             if (values.Length == 1)

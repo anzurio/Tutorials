@@ -1,7 +1,6 @@
 ﻿using System;
 using Inverter;
 
-
 /// <summary>
 /// The Company's App.
 /// </summary>
@@ -11,8 +10,7 @@ namespace DataDisplayer
     {
         static void Main(string[] args)
         {
-            // A different version of each application will need to be compiled for each customer.
-            IDriver driver = Provider.GetDriver("Customer 2", "protocol:111");
+            IDriver driver = Injector.GetDriver();
 
             ProcessData(RetrieveData(driver));
 
