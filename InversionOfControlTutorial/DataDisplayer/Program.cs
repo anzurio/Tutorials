@@ -1,5 +1,6 @@
 ﻿using System;
-using DataStoreDriver;
+using Inverter;
+
 
 /// <summary>
 /// The Company's App.
@@ -10,7 +11,9 @@ namespace DataDisplayer
     {
         static void Main(string[] args)
         {
-            Connection driver = new Connection("192.0.0.1");
+            // A different version of each application will need to be compiled for each customer.
+            IDriver driver = Provider.GetDriver("Customer 2", "protocol:111");
+
             ProcessData(RetrieveData(driver));
 
             Console.Read();
@@ -31,7 +34,7 @@ namespace DataDisplayer
         /// </summary>
         /// <param name="driver">The Third Party class which connects to the data store.</param>
         /// <returns>The data retrieved.</returns>
-        private static string RetrieveData(Connection driver)
+        private static string RetrieveData(IDriver driver)
         {
             return driver.GetData();
         }

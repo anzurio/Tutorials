@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataStoreDriver", "DataStor
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControladorDeDatos", "ControladorDeDatos\ControladorDeDatos.csproj", "{AED36C57-07AE-4DC9-9E2A-9ACA1F889B6F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inverter", "Inverter\Inverter.csproj", "{2DF973CC-195F-4760-882E-455C0A78F88F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{AED36C57-07AE-4DC9-9E2A-9ACA1F889B6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AED36C57-07AE-4DC9-9E2A-9ACA1F889B6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AED36C57-07AE-4DC9-9E2A-9ACA1F889B6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DF973CC-195F-4760-882E-455C0A78F88F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DF973CC-195F-4760-882E-455C0A78F88F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DF973CC-195F-4760-882E-455C0A78F88F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DF973CC-195F-4760-882E-455C0A78F88F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

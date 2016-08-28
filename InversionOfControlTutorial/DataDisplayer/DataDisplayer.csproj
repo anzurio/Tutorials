@@ -43,9 +43,9 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DataStoreDriver\DataStoreDriver.csproj">
-      <Project>{e84a349b-8666-4938-b1cb-c4b26daa14f9}</Project>
-      <Name>DataStoreDriver</Name>
+    <ProjectReference Include="..\Inverter\Inverter.csproj">
+      <Project>{2df973cc-195f-4760-882e-455c0a78f88f}</Project>
+      <Name>Inverter</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
